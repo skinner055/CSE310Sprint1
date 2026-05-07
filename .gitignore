@@ -1,0 +1,60 @@
+# SQL Server database files
+*.mdf
+*.ldf
+*.ndf
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# MySQL dumps
+*.sql
+*.sql.gz
+*.sql.zip
+
+# PostgreSQL dumps
+*.dump
+*.backup
+
+# Oracle database files
+*.dmp
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.*
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Migration/generated artifacts
+migrations/*.sql
+seed/*.sql
+
+# Docker volumes (optional)
+docker-data/
+postgres-data/
+mysql-data/
+
+# Local config overrides
+config.local.*
